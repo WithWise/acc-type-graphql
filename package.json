@@ -128,7 +128,5 @@
     "node": ">= 14.5.0"
   },
   "private": true,
-  "bin": {
-    "type-graphql": "./bin/cli.js"
-  }
+  "bin": "./bin/setup.sh"
 }
