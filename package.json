@@ -6,6 +6,7 @@
     "url": "https://github.com/MichalLytek"
   },
   "scripts": {
+    "build": "tsc --build",
     "test": "jest --verbose --coverage",
     "test:ci": "jest --verbose --coverage --ci --forceExit --detectOpenHandles --runInBand",
     "test:watch": "jest --watch",
@@ -17,7 +18,7 @@
     "verify": "npm run check && npm run lint",
     "package": "gulp package",
     "docs": "npm run --prefix website start",
-    "postinstall": "tsc --build && node ./dist/src/postinstall || exit 0"
+    "postinstall": "node ./dist/src/postinstall || exit 0"
   },
   "peerDependencies": {
     "class-validator": ">=0.13.0",
