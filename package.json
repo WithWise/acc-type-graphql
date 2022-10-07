@@ -128,6 +128,5 @@
   "engines": {
     "node": ">= 14.5.0"
   },
-  "private": true,
-  "bin": "./bin/setup.js"
+  "private": true
 }
