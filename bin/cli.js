@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('yay!')
+const cmd = process.argv
+
+console.log('yay!', cmd)
